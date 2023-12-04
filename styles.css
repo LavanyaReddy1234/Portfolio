@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+   
+    background-position: center;
+    background-size: cover;
+    height:200vh ;
+    background: url(https://www.hdwallpapers.in/download/white_aesthetic_lines_background_hd_white_aesthetic-2560x1440.jpg);
+
+}
+.navbar{
+    width: 1450px;
+    height: 85px;
+    margin: auto;
+    position: static;
+    
+}
+
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+
+
+h2{
+    float: right;
+    margin-top: 20px;
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height: 70px;
+}
+
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: grey;
+}
+img{
+    float:left;
+}
+
+.paragraph{
+    position: absolute;
+    top: 150px;
+    left: 16px;
+    font-size: 18px;
+}
+
+p{
+    font-family:cursive;
+    font-weight: 300;
+    font-size: larger;
+    text-align:center;
+}
+
+
+.name{
+    font-family: cursive;
+    text-align: center;
+}
+
+.skills{
+    top:450px;
+    position: absolute;
+    left: 16px;
+    font-size: 18px;
+    font-weight:bold;
+
+}
+
+.projects{
+    top:700px;
+    position: absolute;
+    left: 16px;
+    font-size: 18px;
+}
+
+.footer{
+    top:1250px;
+    position: absolute;
+    font-size: 15px;
+    background: rgb(160, 157, 157);
+    width:100%;
+    padding: 100px 15%;
+    display: flex;
+    
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-bottom:10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid black;
+    color:black;
+    border-radius: 20px;
+    padding:10px 15px;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.social_icons{
+    margin-top: 30px;
+}
+
+.social_icons i{
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+
+    
